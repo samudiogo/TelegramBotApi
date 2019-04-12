@@ -9,7 +9,7 @@ namespace Solidcon.TelegramBotApi.Servicos
     {
         public static ITelegramBotClient Botclient { get; private set; }
 
-        private const string BotToken = "812852761:AAF7Jm4FqHMZFdia6IFW9XlHC0o7eSTxLSo";
+        private const string BotToken = "";
 
         private static readonly ICollection<long> ChatIdLista = new HashSet<long>();
 
